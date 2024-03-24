@@ -13,7 +13,7 @@ const nextConfig = {
   },
   output: "export",
   distDir: "dist",
-  basePath: "/personal",
+  cleanDistDir: true,
 };
 
 export default nextConfig;
