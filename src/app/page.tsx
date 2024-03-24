@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { HeroParallaxDemo } from "@/components/wrappers/hero";
 
 export default function Home() {
