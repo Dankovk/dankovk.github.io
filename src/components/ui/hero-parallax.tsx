@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="relative flex h-[300vh]  flex-col self-auto overflow-hidden py-40 antialiased [perspective:1000px] [transform-style:preserve-3d]"
+      className="relative flex h-[300vh] flex-col  self-auto overflow-hidden  py-40 antialiased [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -103,14 +103,23 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="relative left-0 top-0 mx-auto w-full max-w-7xl px-4  py-20 md:py-40">
-      <h1 className="text-2xl font-bold md:text-7xl dark:text-white">
-        The Ultimate <br /> development studio
+    <div
+      className="align-right relative left-0 top-0  mx-auto max-w-7xl p-8"
+      style={{
+        background: "rgba(255, 255, 255, .3)",
+        "border-radius": "8px",
+        backdropFilter: "blur(8px)",
+      }}
+    >
+      <h1 className="text-right text-2xl font-bold md:text-7xl dark:text-white">
+        Alex Dankov <br />
       </h1>
-      <p className="mt-8 max-w-2xl text-base md:text-xl dark:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      <p className="mt-8 max-w-2xl text-right md:text-xl dark:text-neutral-200">
+        <code>
+          {" "}
+          <strong>undefined</strong>{" "}
+        </code>{" "}
+        fortune teller{" "}
       </p>
     </div>
   );
