@@ -107,7 +107,7 @@ export const Header = () => {
       className="align-right relative left-0 top-0  mx-auto max-w-7xl p-8"
       style={{
         background: "rgba(255, 255, 255, .3)",
-        "border-radius": "8px",
+        borderRadius: "8px",
         backdropFilter: "blur(8px)",
       }}
     >
