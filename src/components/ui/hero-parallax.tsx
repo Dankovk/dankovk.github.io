@@ -116,8 +116,7 @@ export const Header = () => {
       </h1>
       <p className="mt-8 max-w-2xl text-right md:text-xl dark:text-neutral-200">
         <code>
-          {" "}
-          <strong>undefined</strong>{" "}
+          Principal <strong>undefined</strong>{" "}
         </code>{" "}
         Fortune Teller{" "}
       </p>
