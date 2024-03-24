@@ -119,7 +119,7 @@ export const Header = () => {
           {" "}
           <strong>undefined</strong>{" "}
         </code>{" "}
-        fortune teller{" "}
+        Fortune Teller{" "}
       </p>
     </div>
   );
